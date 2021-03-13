@@ -12,6 +12,12 @@ public class Product {
     private String name;
     private BigDecimal price;
 
+    private Rating rating;
+
+    public Rating getRating() {
+        return rating;
+    }
+
     public int getId() {
         return id;
     }
